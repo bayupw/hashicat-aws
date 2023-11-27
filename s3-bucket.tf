@@ -5,7 +5,7 @@ module "s3-bucket" {
   bucket_prefix = var.prefix
 
   tags = {
-    Department = "devops"
-    Billable = "true"
+    department = "devops"
+    billable = "true"
   }
 }
