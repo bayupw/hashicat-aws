@@ -6,6 +6,6 @@ module "s3-bucket" {
 
   tags = {
     department = "devops"
-    billable = "true"
+    environment = "dev"
   }
 }
