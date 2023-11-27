@@ -5,7 +5,7 @@ module "s3-bucket" {
   bucket_prefix = var.prefix
 
   tags = {
-    name = "${var.prefix}-vpc-${var.region}"
-    environment = "Production"
+    Department = "devops"
+    Billable = "true"
   }
 }
